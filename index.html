@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinning wheel</title>
+
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <!-- External Css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilities.css">
+</head>
+
+<body>
+
+    <header class="hero">
+        <div id="navbar" class="navbar">
+         
+        </div>
+        <div class="content">
+            <h1>
+                <span class="text-primary">Fun </span>App
+            </h1>
+            <p>Have fun 😀 and get to know what you need 🤗 to make you happy! 😂 😂</p>
+            <a href="#about" class="btn">Play  Now<i class="fa fa-chevron-right" style="margin-left:5px"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <!-- About -->
+        <section id="about" class="section-container spin-bgc">
+            <div class="wheel-container">
+                <div class="one">Money 🤑</div>
+                <div class="two">Love 😍</div>
+                <div class="three">Friends </div>
+                <div class="four">Sex 😂</div>
+                <div class="five">Sleep 😌</div>
+                <div class="six">Alcohol </div>
+                <div class="seven">Food 😀 </div>
+                <div class="eight">Travel </div>
+            </div>
+            <span class="mid"></span>
+            <button id="spin" onclick="btnOnclick()">Spin</button>
+            <div class="stoper"></div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
